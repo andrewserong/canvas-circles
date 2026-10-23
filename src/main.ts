@@ -28,7 +28,7 @@ function clearCanvas() {
   // canvasContext.fillRect(0,0,canvasWidth,canvasHeight);
 }
 
-function renderCircle(circle: Circle, newTime: DOMHighResTimeStamp) {
+function renderCircle(circle: Circle) {
   // position
   const x = canvasWidth * circle.x;
   const y = canvasHeight * circle.y;
