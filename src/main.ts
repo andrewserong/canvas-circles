@@ -74,7 +74,7 @@ function mainLoop(newTime: DOMHighResTimeStamp) {
       return;
     }
 
-    renderCircle(entity, newTime);
+    renderCircle(entity);
   } );
 
   // Tidy up entities;
