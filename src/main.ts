@@ -114,4 +114,4 @@ function init() {
   requestAnimationFrame(mainLoop);
 }
 
-init();
+window.onload = init;
